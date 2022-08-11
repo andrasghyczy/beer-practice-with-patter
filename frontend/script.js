@@ -21,9 +21,9 @@ const cardComponent = (id, title, sub, text, button) => {
         <div class="card">
             <div class="number">${id}</div>
             <h2>${title}</h2>
-            <p>${sub}</p>
-            <p>${text}</p>
-            <button><pan>${button}</span><span class="material-icons-outlined">arrow_forward</span></button>
+            <p class="sub">${sub}</p>
+            <p class="text">${text}</p>
+            <button><span>${button}</span><span class="material-icons-outlined">arrow_forward</span></button>
         </div>
     `;
 };
